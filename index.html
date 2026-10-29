@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fanka Labs — La force de bâtir</title>
+  <meta name="description" content="Fanka Labs est une startup technologique guinéenne qui conçoit des solutions numériques utiles, à commencer par Karan, une plateforme éducative.">
+  <meta property="og:title" content="Fanka Labs">
+  <meta property="og:description" content="Startup technologique guinéenne. Notre premier projet : Karan, une plateforme éducative.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ===================== EN-TÊTE ===================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#accueil" class="brand" aria-label="Fanka Labs">
+        <!-- TODO : remplacer par le vrai logo (assets/img/logo.svg) -->
+        <img src="assets/img/logo.svg" alt="Fanka Labs" width="140" height="32">
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+
+      <nav id="nav" class="nav">
+        <a href="#mission" data-i18n="nav.mission">Mission</a>
+        <a href="#projets" data-i18n="nav.projects">Projets</a>
+        <a href="#equipe" data-i18n="nav.team">Équipe</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <div class="lang-switch" role="group" aria-label="Langue / Language">
+          <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== ACCUEIL ===================== -->
+    <section id="accueil" class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Startup technologique · Guinée</p>
+        <h1 data-i18n="hero.title">La force de bâtir la tech qui compte.</h1>
+        <p class="lead" data-i18n="hero.lead">
+          Fanka Labs conçoit des solutions numériques utiles, pensées pour les réalités d'ici.
+          Notre premier projet : Karan, une plateforme éducative.
+        </p>
+        <div class="hero-actions">
+          <a href="#projets" class="btn btn-primary" data-i18n="hero.cta1">Découvrir Karan</a>
+          <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta2">Nous contacter</a>
+        </div>
+      </div>
+      <div class="hero-word" aria-hidden="true">FANKA</div>
+    </section>
+
+    <!-- ===================== MISSION ===================== -->
+    <section id="mission" class="section">
+      <div class="container">
+        <div class="mission-head">
+          <p class="eyebrow" data-i18n="mission.eyebrow">Notre mission</p>
+          <h2 data-i18n="mission.title">« Fanka » signifie la force.</h2>
+          <!-- TODO : remplacer par la vraie phrase de mission -->
+          <p class="lead" data-i18n="mission.text">
+            Nous croyons que la technologie peut donner plus de force à chacun : apprendre,
+            entreprendre, grandir. Nous construisons des outils simples, accessibles et durables
+            pour y contribuer.
+          </p>
+        </div>
+
+        <!-- TODO : ajuster les trois piliers -->
+        <div class="pillars">
+          <article class="pillar">
+            <span class="pillar-num">01</span>
+            <h3 data-i18n="pillar1.title">Éducation</h3>
+            <p data-i18n="pillar1.text">Rendre le savoir plus accessible grâce au numérique.</p>
+          </article>
+          <article class="pillar">
+            <span class="pillar-num">02</span>
+            <h3 data-i18n="pillar2.title">Innovation</h3>
+            <p data-i18n="pillar2.text">Concevoir des produits adaptés aux besoins locaux.</p>
+          </article>
+          <article class="pillar">
+            <span class="pillar-num">03</span>
+            <h3 data-i18n="pillar3.title">Impact</h3>
+            <p data-i18n="pillar3.text">Créer de la valeur durable pour nos communautés.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJETS ===================== -->
+    <section id="projets" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow" data-i18n="projects.eyebrow">Nos projets</p>
+        <h2 data-i18n="projects.title">Ce que nous construisons</h2>
+
+        <div class="projects">
+          <article class="project project-featured">
+            <div class="project-top">
+              <h3>Karan</h3>
+              <!-- TODO : confirmer le statut -->
+              <span class="badge" data-i18n="karan.status">En développement</span>
+            </div>
+            <p class="project-tag" data-i18n="karan.tag">Plateforme éducative</p>
+            <!-- TODO : décrire Karan (public visé, fonctionnalités) -->
+            <p data-i18n="karan.text">
+              Karan accompagne les apprenants avec des contenus et des outils pensés pour réussir.
+              Plus de détails très bientôt.
+            </p>
+            <!-- TODO : remplacer # par le lien de Karan quand il existera -->
+            <a href="#contact" class="link-arrow" data-i18n="karan.cta">Être informé du lancement</a>
+          </article>
+
+          <article class="project project-soon">
+            <h3 data-i18n="soon.title">Prochain projet</h3>
+            <p data-i18n="soon.text">D'autres solutions sont en préparation. Restez connectés.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ÉQUIPE ===================== -->
+    <section id="equipe" class="section">
+      <div class="container">
+        <p class="eyebrow" data-i18n="team.eyebrow">L'équipe</p>
+        <h2 data-i18n="team.title">Trois cofondateurs, une même énergie</h2>
+
+        <!-- TODO : compléter rôles, noms, photos et liens -->
+        <div class="team">
+          <article class="member">
+            <div class="avatar" aria-hidden="true">GC</div>
+            <h3>Gaoussou Cissé</h3>
+            <p class="role" data-i18n="team.role1">Cofondateur · [Rôle]</p>
+            <a href="#" class="member-link">LinkedIn</a>
+          </article>
+          <article class="member">
+            <div class="avatar" aria-hidden="true">?</div>
+            <h3>[Nom du cofondateur]</h3>
+            <p class="role" data-i18n="team.role2">Cofondateur · [Rôle]</p>
+            <a href="#" class="member-link">LinkedIn</a>
+          </article>
+          <article class="member">
+            <div class="avatar" aria-hidden="true">?</div>
+            <h3>[Nom du cofondateur]</h3>
+            <p class="role" data-i18n="team.role3">Cofondateur · [Rôle]</p>
+            <a href="#" class="member-link">LinkedIn</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 data-i18n="contact.title">Parlons de votre projet</h2>
+          <p class="lead" data-i18n="contact.text">
+            Une question, un partenariat, une envie de rejoindre l'aventure ? Écrivez-nous.
+          </p>
+          <a href="mailto:info@fankalabs.com" class="btn btn-primary">info@fankalabs.com</a>
+        </div>
+
+        <!-- TODO : compléter téléphone, ville et réseaux -->
+        <ul class="contact-list">
+          <li><span data-i18n="contact.phone">Téléphone / WhatsApp</span><strong>[+224 ...]</strong></li>
+          <li><span data-i18n="contact.location">Localisation</span><strong data-i18n="contact.city">[Ville], Guinée</strong></li>
+          <li><span data-i18n="contact.social">Réseaux</span>
+            <strong class="socials">
+              <a href="https://github.com/fankalabs">GitHub</a>
+              <a href="#">LinkedIn</a>
+              <a href="#">Facebook</a>
+            </strong>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Fanka Labs. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+      <a href="#accueil" data-i18n="footer.top">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
