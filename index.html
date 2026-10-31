@@ -8,7 +8,10 @@
   <meta property="og:title" content="Fanka Labs">
   <meta property="og:description" content="Startup technologique guinéenne. Notre premier projet : Karan, une plateforme éducative.">
   <meta property="og:type" content="website">
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <meta property="og:image" content="https://fankalabs.github.io/assets/img/og-image.jpg">
+  <meta name="theme-color" content="#032c74">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -20,8 +23,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a href="#accueil" class="brand" aria-label="Fanka Labs">
-        <!-- TODO : remplacer par le vrai logo (assets/img/logo.svg) -->
-        <img src="assets/img/logo.svg" alt="Fanka Labs" width="140" height="32">
+        <img src="assets/img/logo.png" alt="Fanka Labs" width="155" height="36">
       </a>
 
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menu">
@@ -57,7 +59,7 @@
           <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta2">Nous contacter</a>
         </div>
       </div>
-      <div class="hero-word" aria-hidden="true">FANKA</div>
+      <img class="hero-mark" src="assets/img/icon.png" alt="" aria-hidden="true">
     </section>
 
     <!-- ===================== MISSION ===================== -->
@@ -135,7 +137,7 @@
         <!-- TODO : compléter rôles, noms, photos et liens -->
         <div class="team">
           <article class="member">
-            <div class="avatar" aria-hidden="true">GC</div>
+            <div class="avatar"><img src="assets/img/team/gaoussou-cisse.jpg" alt="Gaoussou Cissé" width="96" height="96" loading="lazy"></div>
             <h3>Gaoussou Cissé</h3>
             <p class="role" data-i18n="team.role1">Cofondateur · [Rôle]</p>
             <a href="#" class="member-link">LinkedIn</a>
@@ -187,6 +189,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
+      <img src="assets/img/logo-white.png" alt="Fanka Labs" class="footer-logo" width="120" height="28">
       <p>© <span id="year"></span> Fanka Labs. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
       <a href="#accueil" data-i18n="footer.top">Retour en haut ↑</a>
     </div>
