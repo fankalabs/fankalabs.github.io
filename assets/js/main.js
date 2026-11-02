@@ -37,16 +37,15 @@ const EN = {
 
   "team.eyebrow": "The team",
   "team.title": "Three co-founders, one shared drive",
-  "team.role1": "Co-founder · [Role]",
-  "team.role2": "Co-founder · [Role]",
-  "team.role3": "Co-founder · [Role]",
+  "team.role1": "Co-founder · CEO",
+  "team.role2": "Co-founder · CTO",
+  "team.role3": "Co-founder · Scrum Master",
 
   "contact.eyebrow": "Contact",
   "contact.title": "Let's talk about your project",
   "contact.text": "A question, a partnership, a wish to join the adventure? Write to us.",
   "contact.phone": "Phone / WhatsApp",
-  "contact.location": "Location",
-  "contact.city": "[City], Guinea",
+  "contact.location": "Address",
   "contact.social": "Social",
 
   "footer.rights": "All rights reserved.",

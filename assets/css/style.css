@@ -220,6 +220,9 @@ h3 { font-size: 1.35rem; font-weight: 700; }
   border-bottom: 1px solid color-mix(in srgb, var(--c-on-dark) 18%, transparent);
 }
 .contact-list span { color: color-mix(in srgb, var(--c-on-dark) 60%, transparent); }
+.stack { display: flex; flex-direction: column; align-items: flex-end; gap: 0.2rem; text-align: right; font-weight: 500; }
+.stack a { text-decoration: none; }
+.stack a:hover { text-decoration: underline; }
 .socials { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: flex-end; }
 
 /* ---------- Pied de page ---------- */
@@ -259,5 +262,6 @@ h3 { font-size: 1.35rem; font-weight: 700; }
   .contact-inner { align-items: start; }
   .contact-list li { flex-direction: column; gap: 0.2rem; }
   .socials { justify-content: flex-start; }
+  .stack { align-items: flex-start; text-align: left; }
   .footer-inner { flex-direction: column; }
 }
