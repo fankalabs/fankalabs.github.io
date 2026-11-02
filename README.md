@@ -1,6 +1,6 @@
 # Fanka Labs — site vitrine
 
-Site officiel de **Fanka Labs**, startup technologique guinéenne. « Fanka » signifie la force.
+Site officiel de **Fanka Labs**, startup technologique basée au Canada. « Fanka » signifie la force.
 
 Site statique en HTML, CSS et JavaScript, sans outil de build, publié avec GitHub Pages sur
 **https://fankalabs.github.io**.

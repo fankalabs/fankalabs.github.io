@@ -10,7 +10,7 @@ const EN = {
   "nav.team": "Team",
   "nav.contact": "Contact",
 
-  "hero.eyebrow": "Tech startup · Guinea",
+  "hero.eyebrow": "Tech startup · Canada",
   "hero.title": "The strength to build tech that matters.",
   "hero.lead": "Fanka Labs builds useful digital solutions designed for local realities. Our first project: Karan, an education platform.",
   "hero.cta1": "Discover Karan",
@@ -55,11 +55,11 @@ const EN = {
 const META = {
   fr: {
     title: "Fanka Labs — La force de bâtir",
-    description: "Fanka Labs est une startup technologique guinéenne qui conçoit des solutions numériques utiles, à commencer par Karan, une plateforme éducative."
+    description: "Fanka Labs est une startup technologique basée au Canada qui conçoit des solutions numériques utiles, à commencer par Karan, une plateforme éducative."
   },
   en: {
     title: "Fanka Labs — The strength to build",
-    description: "Fanka Labs is a Guinean tech startup building useful digital solutions, starting with Karan, an education platform."
+    description: "Fanka Labs is a Canada-based tech startup building useful digital solutions, starting with Karan, an education platform."
   }
 };
 
