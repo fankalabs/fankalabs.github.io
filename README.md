@@ -3,7 +3,7 @@
 Site officiel de **Fanka Labs**, startup technologique basée au Canada. « Fanka » signifie la force.
 
 Site statique en HTML, CSS et JavaScript, sans outil de build, publié avec GitHub Pages sur
-**https://fankalabs.github.io**.
+**https://fankalabs.com** (domaine personnalisé, voir le fichier `CNAME`).
 
 ## Structure
 
