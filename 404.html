@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Page introuvable · Fanka Labs</title>
+  <link rel="icon" href="/assets/img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    .notfound { min-height: 100vh; display: grid; place-items: center; text-align: center; padding: 2rem 20px; position: relative; overflow: hidden; }
+    .notfound .code { font-family: var(--f-display); font-weight: 800; font-size: clamp(5rem, 22vw, 11rem); line-height: 1; color: var(--c-accent); margin: 0 0 .5rem; letter-spacing: -.04em; }
+    .notfound .lead { margin: 0 auto 2rem; }
+    .notfound .logo { height: 36px; width: auto; margin: 0 auto 3rem; }
+    .notfound .actions { display: flex; flex-wrap: wrap; gap: .8rem; justify-content: center; }
+  </style>
+</head>
+<body>
+  <main class="notfound">
+    <div>
+      <a href="/"><img class="logo" src="/assets/img/logo.png" alt="Fanka Labs" width="155" height="36"></a>
+      <p class="code">404</p>
+      <h1 style="font-size:clamp(1.8rem,4vw,2.6rem)">Page introuvable</h1>
+      <p class="lead">Cette page n'existe pas ou a été déplacée.<br><span lang="en">This page doesn't exist or has been moved.</span></p>
+      <div class="actions">
+        <a href="/" class="btn btn-primary">Retour à l'accueil</a>
+        <a href="/#contact" class="btn btn-ghost">Nous contacter</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

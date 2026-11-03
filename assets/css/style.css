@@ -163,7 +163,7 @@ h3 { font-size: 1.35rem; font-weight: 700; }
 .pillar p { color: var(--c-muted); margin: 0; }
 
 /* ---------- Projets ---------- */
-.projects { display: grid; grid-template-columns: 2fr 1fr; gap: 1.25rem; margin-top: 2.5rem; }
+.projects { display: grid; grid-template-columns: minmax(0, 760px); gap: 1.25rem; margin-top: 2.5rem; }
 .project { border-radius: var(--radius); padding: 2rem; }
 .project-featured { background: var(--c-bg); border: 1px solid var(--c-line); }
 .project-featured h3 { font-size: 2.2rem; margin: 0; }
